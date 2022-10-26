@@ -43,7 +43,7 @@ spec:
       - env:
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.show-details=always -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include=* -Dmanagement.server.port="8081" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: registrysapnatap.azurecr.io/supply-chain/tjwa-gitops-2-my-apps@sha256:d028ae19868592a43c374df742405a74b9b54f4666c5acb73dc9caa744043f4f
+        image: registrysapnatap.azurecr.io/supply-chain/tjwa-gitops-2-my-apps@sha256:6761af6749ac028303bef5c37f62381764016c152914ac2678631000146c10d2
         name: workload
         ports:
         - containerPort: 8080
